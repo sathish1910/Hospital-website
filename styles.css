@@ -1,0 +1,97 @@
+body {
+    background: lightblue;
+    padding: 0;
+    margin:0;
+  }
+
+.navbar {
+  height: 120px;
+  background-color: yellowgreen 
+} 
+.btn{
+  font-size: 25px;
+  border-color:white ;
+  color : white;
+  border-radius: 10%;
+  background-color: black;
+  margin:8px;
+}
+
+.btn1{
+  font-size: 25px;
+  border-color:white ;
+  color : white;
+  border-radius: 10%;
+  background-color: black;
+  
+ margin:8px;
+}
+
+.form-group{
+  font-size: 25px;
+  align-items: center;
+}
+
+.gender{
+  font-size:25px;
+}
+.container{
+  margin-top:60px;
+}
+
+.slider-frame{
+  overflow: hidden;
+  height: 800px;
+  width: 1200px;
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
+@keyframes slide_animation{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:1200px;}
+  30% {left:1200px;}
+  40% {left:2400px;}
+  50% {left:2400px;}
+  60% {left:1200px;}
+  70% {left:1200px;}
+  80% {left:0px;}
+  90% {left:0px;}
+  100% {left:0px;}
+}
+
+.mySlides{
+  position: absolute;
+  height:100%;
+  width: 100%;
+  margin: 0px;
+
+}
+
+
+
+
+
+/*----------SLIDE ANIMATION----------------*/
+
+.slide_img{
+    width:3600px;
+    height:800;
+    margin:0 0 0 -2400px;
+    position: relative;
+    -animation-name: slide_animation;
+    -animation-duration: 3s;
+    -animation-iteration-count: infinite;
+    -animation-play-state: running;
+}
+
+.img_cont{
+  height:800px;
+  width: 1200px;
+  position: relative;
+  float:left;
+}
+
+/*---------- END OF SLIDE ANIMATION----------------*/
+
